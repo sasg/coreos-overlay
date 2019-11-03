@@ -14,6 +14,8 @@ else
 	KEYWORDS="amd64 arm arm64 x86"
 fi
 
+CROS_WORKON_COMMIT="master"
+
 inherit cros-workon cros-debug
 
 DESCRIPTION="CoreOS Bootengine"
