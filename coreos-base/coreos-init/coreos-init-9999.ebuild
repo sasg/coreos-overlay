@@ -3,7 +3,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI="5"
-CROS_WORKON_PROJECT="coreos/init"
+CROS_WORKON_PROJECT="sasg/init"
 CROS_WORKON_LOCALNAME="init"
 CROS_WORKON_REPO="git://github.com"
 
@@ -13,6 +13,8 @@ else
 	CROS_WORKON_COMMIT="a164d8785cf49d69091bfec642ed59cc59bb3421"
 	KEYWORDS="amd64 arm arm64 x86"
 fi
+
+CROS_WORKON_COMMIT="master"
 
 inherit cros-workon systemd
 
